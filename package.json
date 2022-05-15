@@ -1,0 +1,20 @@
+{
+  "name": "pawan-dance-academy",
+  "version": "1.0.0",
+  "description": "This is a website of Dance Academy.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Academy"
+  ],
+  "author": "Pawan Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2",
+    "pug": "^3.0.2"
+  }
+}

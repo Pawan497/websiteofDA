@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Dance Academy
+    block scripts
+    block style 
+    link(rel="icon", href="/static/img/images.png")
+  body
+    nav#navbar.top.firstClass.secondClass
+        ul
+            div#logo
+                img(src="/static/img/images.png", alt="Dance Academy")
+                | DA
+            li
+                a(href="/")  Home
+            li
+                a(href="/services")  Services
+            li
+                a(href="/information") Information
+            li
+                a(href="/about")  About
+            li
+                a(href="/contact") Contact
+    block content
+    footer#footer
+        | Copyright © 2022 DanceAcademy.com. | All rights are reserved by Pawan Yadav.
